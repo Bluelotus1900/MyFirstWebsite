@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--
+  ============================================================
+  MY FIRST WEBSITE — Mini Airbnb Preview
+  ============================================================
+  HOW TO EDIT:
+  - Anything between <tags> like <h1>Hello</h1> is text you can change.
+  - Look for the word "EDIT" in comments to find the parts to personalise.
+  - Save the file, then refresh the page in your browser to see changes.
+  - The look (colours, fonts, spacing) lives in style.css.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- This line makes the page fit nicely on phones -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- EDIT: the title shown in the browser tab and in Google results -->
+  <title>Sakura House — A Quiet Stay</title>
+  <meta name="description" content="A cosy, quiet home for travellers. Book your stay on Airbnb.">
+
+  <!-- Connects this page to the style file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== TOP NAVIGATION BAR ===== -->
+  <header class="nav">
+    <a href="#" class="logo">Sakura House</a>   <!-- EDIT: your property name -->
+    <nav>
+      <a href="#about">About</a>
+      <a href="#amenities">Amenities</a>
+      <a href="#gallery">Photos</a>
+      <a href="#location">Location</a>
+      <a href="#book" class="nav-btn">Book</a>
+    </nav>
+  </header>
+
+  <!-- ===== HERO (the big banner at the top) ===== -->
+  <section class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">Your home away from home</p>
+      <h1>A calm, comfortable stay<br>close to everything</h1>   <!-- EDIT -->
+      <p>2 bedrooms · 4 guests · Fast Wi-Fi · Self check-in</p>   <!-- EDIT -->
+      <a href="#book" class="btn">Check availability</a>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <h2>About the stay</h2>
+    <!-- EDIT: describe your place in 2–3 short paragraphs -->
+    <p>
+      Welcome! Our home is a bright, peaceful space designed for families,
+      couples and business travellers. Relax after a day of exploring,
+      cook in the fully equipped kitchen, and sleep well in quiet bedrooms.
+    </p>
+    <p>
+      We live nearby and are happy to share tips on local food,
+      sightseeing and transport.
+    </p>
+  </section>
+
+  <!-- ===== AMENITIES ===== -->
+  <section id="amenities" class="section alt">
+    <h2>Amenities</h2>
+    <!-- EDIT: add or remove <li> lines to match your place -->
+    <ul class="grid">
+      <li><span>📶</span>High-speed Wi-Fi</li>
+      <li><span>❄️</span>Air conditioning</li>
+      <li><span>🍳</span>Full kitchen</li>
+      <li><span>🧺</span>Washing machine</li>
+      <li><span>🚗</span>Free parking</li>
+      <li><span>🔑</span>Self check-in</li>
+    </ul>
+  </section>
+
+  <!-- ===== PHOTO GALLERY ===== -->
+  <section id="gallery" class="section">
+    <h2>Photos</h2>
+    <!--
+      EDIT: To use your own photos:
+      1. Create a folder called "images" next to this file.
+      2. Put your photos in it, e.g. living-room.jpg
+      3. Replace a <div class="photo ..."> line with:
+         <img src="images/living-room.jpg" alt="Living room">
+    -->
+    <div class="gallery">
+      <div class="photo p1">Living room</div>
+      <div class="photo p2">Bedroom</div>
+      <div class="photo p3">Kitchen</div>
+      <div class="photo p4">View</div>
+    </div>
+  </section>
+
+  <!-- ===== LOCATION ===== -->
+  <section id="location" class="section alt">
+    <h2>Location</h2>
+    <!-- EDIT: your area and what's nearby -->
+    <p>Located in a quiet residential area.</p>
+    <ul class="nearby">
+      <li>🚉 Train station — 5 min walk</li>
+      <li>🛒 Supermarket — 3 min walk</li>
+      <li>✈️ Airport — 40 min by train</li>
+    </ul>
+  </section>
+
+  <!-- ===== BOOKING CALL-TO-ACTION ===== -->
+  <section id="book" class="section book">
+    <h2>Ready to book?</h2>
+    <p>See prices, dates and reviews on our Airbnb listing.</p>
+    <!-- EDIT: replace the # with your real Airbnb listing link -->
+    <a href="#" class="btn btn-light" target="_blank">View on Airbnb</a>
+    <!-- EDIT: your contact email -->
+    <p class="small">Questions? Email us at <a href="mailto:hello@example.com">hello@example.com</a></p>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© 2026 Sakura House</p>   <!-- EDIT -->
+  </footer>
+
+</body>
+</html>
